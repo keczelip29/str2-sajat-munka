@@ -1,0 +1,507 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: khaki;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    height: 80px;
+    background-image: url("../../images/header_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb {
+    height: 100px;
+    background-image: url("../../images/breadcrumb_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 3px;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: khaki;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main_icon {
+    font-size: 50px;
+    text-align: center;
+    margin: -10px;
+}
+
+nav {
+    background-color: black;
+    height: 29px;
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.banner {
+    background-image: url("../../images/MCU.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 230px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000 ;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: lightgrey;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+.logo {
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    width: 350px;
+    margin-left: -10px;
+}
+
+header>a {
+    text-decoration: none;
+}
+
+header>a:hover {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav>a {
+    color: khaki;
+}
+
+nav>a:hover {
+    color: #000;
+    background-color: khaki;
+
+}
+
+nav>a:active {
+    color: #000;
+    background-color: khaki;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.menu_button {
+    box-sizing: inherit;
+    width: auto;
+    display: inline;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.column_copyright {
+    font-size: 14px;
+    text-align: center;
+    border-left: 2px;
+    border-color: white;
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.column_footer {
+    width: 25%;
+    float: left;
+}
+
+.column_footer_button {
+    
+    font-weight: 500;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 2px;   
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+}
+
+.column_footer_button>a {
+    color: black;
+}
+
+.column_footer_button:hover {
+    background-color: khaki;
+}
+
+
+div {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 32.733333%;
+    margin: 0.3%;
+}
+
+.row {
+    margin: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column_about {
+    float: left;
+    width: 80%;
+    background-color:rgba(255,255,255,0.4);
+    text-align: left;
+    padding: 5px 20px 20px 20px;  
+}
+
+.column_about_image {
+    width: 20%;    
+    float: left; 
+    align-content: center;
+    background-image: url("../../images/Marvel_Cinematic_Universe_Logo.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-color: black;
+
+}
+
+.row_about {
+    padding-left: 10px;
+    padding-right: 100px;
+    width: 100%;
+    min-height: 400px;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.row_about:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column_works {
+    float: left;
+    width: 50%;
+    background-color:rgba(255,255,255,0.4);
+    text-align: left;
+    padding: 5px 20px 20px 20px;  
+}
+
+.row_works {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.row_works:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.work_images {
+    align-content: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: khaki; 
+}
+
+.work_images_first {
+    background-image: url("../../images/ironmandvd.jpg");
+}
+
+.work_images_second {
+    background-image: url("../../images/GOGdvd_.jpg");
+}
+
+.work_images_third {
+    background-image: url("../../images/Avengers_endgame_dvd.jpg");
+}
+
+ul li {
+    margin-left: -20px;
+}
+.row_gallery {
+    margin: 0px 10px 0px 10px;;
+}
+.row_gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_gallery {
+    float: left;
+    width: 32.733333%;
+    margin: 0.3%;
+    padding: 0px 3px 0px 3px;
+}
+.row_footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.main_section {
+    background-color: rgba(255,255,255,0.4);
+    color:darkslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+.characters {
+    background-image: url("../../images/MCU_bottom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    object-position: center;
+    box-shadow: 3px 3px 8px #000;
+}
+
+.column_form_contact {
+    background-color: rgba(255,255,255,0.4);;
+    padding: 20px;
+    width: 60%;
+    align-content: center;
+    align-items: center;
+    display:table;  
+    float: left;
+}
+.column_form_contact_empty {
+    background-color: rgba(255,255,255,0.4);;
+    padding: 20px;
+    width: 20%;
+    align-content: center;
+    align-items: center;
+    display:table;  
+    float: left;
+}
+
+.row_contact {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.row_contact:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input[type=email], textarea, input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=email]:focus {
+    background-color: rgb(231, 230, 230);
+}
+textarea:focus {
+    background-color: rgb(231, 230, 230);
+}
+input[type=text]:focus {
+    background-color: rgb(231, 230, 230);
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #2DBAF2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #81cdeb;  
+  }
+  
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 30px;
+        color: khaki;
+    }
+    
+    .row_gallery {
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .column {
+        width: 100%;
+      }
+    .column_gallery {
+        width: 100%;
+      }
+    
+    .column_footer {
+        display: none;
+    }
+
+    .column_footer_button {
+        width: 100%;
+    }
+    
+    .column_copyright {
+        width: 100%;
+    }
+
+    .column_works {
+        width: 100%;
+    }
+    
+    .characters {
+        height: 100px;
+    }
+
+    .row_contact {
+        width: 100%;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .column_form_contact {
+    
+        width: 100%;
+    }
+    .column_form_contact_empty {
+        display: none;
+    }
+
+    .row_works {
+        display: table;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .column_works {
+        float: left;
+        width: 100%;
+    }
+
+    .row_about {
+    padding-right: 10px;
+    }
+    .column_about {
+        float: left;
+        width: 100%;
+    }
+    .column_about_image {
+        float: left;
+        width: 100%;
+        background-position: center;  
+    }
+
+    .work_images {
+        background-position: top;
+        background-size:contain;
+        height: 500px;
+    }
+    
+}
+@media screen and (max-width: 960px) {
+    .row_gallery {
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .column {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .row_works {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .work_images {
+        background-position: top;
+        background-size: cover;
+        display: flex;
+    }
+
+    .column_footer_button {
+        width: 100%;
+    }
+    .column_copyright {
+        width: 100%;
+    }
+    .characters {
+        height: 100px;
+    }
+}
