@@ -1,1 +1,1 @@
-A struktúraváltó képzésen készített projektjeim, ferladataim tárhelye.
+A struktúraváltó képzésen készített projektjeim, feladataim tárhelye.
